@@ -1,2 +1,12 @@
 Temp/
 Library/
+Assets/Bakery/examples/
+Assets/Bakery/docs/
+Assets/Bakery/shader/Bakery_ShaderGraphHDRP.unitypackage
+Assets/Bakery/shader/Bakery_ShaderGraphHDRP.unitypackage.meta
+Assets/Bakery/shader/Bakery_ShaderGraphLWRP.unitypackage
+Assets/Bakery/shader/Bakery_ShaderGraphLWRP.unitypackage.meta
+Assets/Bakery/shader/BakeryHDRPShader.zip
+Assets/Bakery/shader/BakeryHDRPShader.zip.meta
+Assets/Bakery/shader/BakeryLWRPShader.zip
+Assets/Bakery/shader/BakeryLWRPShader.zip.meta
