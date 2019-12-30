@@ -480,6 +480,13 @@
      <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Wires\WireBezierReference.cs" />
      <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Wires\WirePort.cs" />
      <Compile Include="Assets\AmplifyShaderEditor\Plugins\Editor\Wires\WireReference.cs" />
+     <Compile Include="Assets\MapMagic\Editor\CompatibilityManager.cs" />
+     <Compile Include="Assets\MapMagic\Editor\GeneratorsAssetEditor.cs" />
+     <Compile Include="Assets\MapMagic\Editor\InstantUpdaterEditor.cs" />
+     <Compile Include="Assets\MapMagic\Editor\MapMagicEditor.cs" />
+     <Compile Include="Assets\MapMagic\Editor\MapMagicWindow.cs" />
+     <Compile Include="Assets\MapMagic\Editor\PopupMenu.cs" />
+     <Compile Include="Assets\MapMagic\Editor\PreviewWindow.cs" />
      <Compile Include="Assets\SC Post Effects\Editor\GUI.cs" />
      <Compile Include="Assets\SC Post Effects\Editor\HelpWindow.cs" />
      <Compile Include="Assets\SC Post Effects\Editor\Installer.cs" />
@@ -529,6 +536,7 @@
      <Compile Include="Assets\Voxeland\Tools\Editor\PopupMenu.cs" />
      <Compile Include="Assets\Voxeland\Tools\Plugins\Editor\CompatibilityManager.cs" />
      <None Include="Assets\Editor\x64\Bakery\shaderSrc\ftrace.cginc" />
+     <None Include="Assets\MapMagic\Editor\Resources\TextureArrayIcon.shader" />
      <None Include="Assets\Editor\x64\Bakery\ftChecker.shader" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>C:/Users/Marcello/Documents/Git/Journeys/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
