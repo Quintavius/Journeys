@@ -453,7 +453,31 @@ MonoBehaviour:
   - Assets/Voxeland/Demo/Trees/Birch/Meshes/ShortSingle.FBX
   - Assets/Voxeland/Demo/Trees/Birch/Meshes/ShortTripple.FBX
   - Assets/Voxeland/Demo/Trees/Birch/Meshes/TinySmall.FBX
-  uvOverlapAssetList: 00000000ffffffff0000000000000000000000000000000000000000000000000101000000000000000000000000000000000000010100000000000001010000000000000101000001010000000000000101000001010000010100000101000000000000010100000101000001010000010100000101000001010000010100000000000000000000010100000101000000000000000000000000000001010000010100000101000001010000010100000101000001010000
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/TallSingleB.FBX
+  - Assets/MapMagic/Demo/Trees/Pine/Meshes/PineMed3.FBX
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/TinySmall.FBX
+  - Assets/MapMagic/Demo/Trees/Pine/Meshes/PineBig1.FBX
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/TallSingleA.FBX
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/ShortTripple.FBX
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/ShortSingle.FBX
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/ShortDouble.FBX
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/TallTripple.FBX
+  - Assets/MapMagic/Demo/Stones/Meshes/Stone03.fbx
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/TinyBig.FBX
+  - Assets/MapMagic/Demo/Trees/Pine/Meshes/PineSmall1.FBX
+  - Assets/MapMagic/Demo/Trees/Pine/Meshes/PineMed2.FBX
+  - Assets/MapMagic/Demo/Trees/Pine/Meshes/PineMed1.FBX
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/TallDouble.FBX
+  - Assets/MapMagic/Demo/Stones/Meshes/Stone02.fbx
+  - Assets/MapMagic/Demo/Trees/Pine/Meshes/PineBig2.FBX
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/ShortSplitA.FBX
+  - Assets/MapMagic/Demo/Trees/Pine/Meshes/Stump.FBX
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/ShortSplitB.FBX
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/TallSplit.FBX
+  - Assets/MapMagic/Demo/Trees/Birch/Meshes/ShortSmall.FBX
+  - Assets/MapMagic/Demo/Stones/Meshes/Stone01.fbx
+  - Assets/MapMagic/Demo/Trees/Pine/Meshes/PineSmall2.FBX
+  uvOverlapAssetList: 00000000ffffffff0000000000000000000000000000000000000000000000000101000000000000000000000000000000000000010100000000000001010000000000000101000001010000000000000101000001010000010100000101000000000000010100000101000001010000010100000101000001010000010100000000000000000000010100000101000000000000000000000000000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000000000000101000001010000010100000101000001010000000000000101000001010000000000000101000001010000010100000000000001010000
   xatlasWarningShown: 0
   checkerPreviewOn: 0
   renderSettingsBounces: 5

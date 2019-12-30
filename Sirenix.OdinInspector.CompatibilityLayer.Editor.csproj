@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{11BC293D-A8C3-44C4-7342-F4B4E67EED78}</ProjectGuid>
+    <ProjectGuid>{06AAD232-D321-9045-0855-DF899D347C84}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>BakeryEditorAssembly</AssemblyName>
+    <AssemblyName>Sirenix.OdinInspector.CompatibilityLayer.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -45,36 +45,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftBuildGraphics.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftBuildLights.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftClearMenu.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftClient.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftCreateMenu.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftDDS.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftDirectLightInspector.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftErrorCodes.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLMGroupInspector.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLMGroupSelectorInspector.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightMeshInspector.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightingDataGen.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightmappedPrefabInspector.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightmapsStorageInspector.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftModelPostProcessor.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftPlayMode2EditorUpdater.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftPointLightInspector.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftRenderLightmap.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftRestorePaddingMenu.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSavePadding.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSaveSettingsMenu.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSceneView.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftShaderTweaks.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSkyLightInspector.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftTextureProcessor.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftUVGBufferGen.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\xatlas\xatlas.cs" />
-     <Compile Include="Assets\Editor\x64\Bakery\scripts\xatlas\xatlasEnable.cs" />
-     <None Include="Assets\Editor\x64\Bakery\scripts\xatlas\xatlas-license.txt" />
-     <None Include="Assets\Editor\x64\Bakery\scripts\BakeryEditorAssembly.asmdef" />
+     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\AssemblyImportSettingsAutomation.cs" />
+     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\BuildAOTAutomation.cs" />
+     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\EnsureOdinInspectorDefine.cs" />
+     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\FixBrokenUnityObjectWrapperDrawer.cs" />
+     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\SyncListDrawer.cs" />
+     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\SyncVarAttributeDrawer.cs" />
+     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\Vector2IntMinMaxAttributeDrawer.cs" />
+     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\VectorIntDrawers.cs" />
+     <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\VectorIntPropertyResolvers.cs" />
+     <None Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Editor\Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" />
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/Marcello/Documents/Git/Journeys/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
@@ -654,12 +634,6 @@
  <Reference Include="Boo.Lang">
  <HintPath>C:/Program Files/Unity/2019.3.0f3/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="BakeryRuntimeAssembly.csproj">
-      <Project>{5BBB2C8D-15D8-9598-F2FD-46EA4B7D3A36}</Project>
-      <Name>BakeryRuntimeAssembly</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
