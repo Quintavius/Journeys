@@ -520,6 +520,14 @@
      <Compile Include="Assets\SC Post Effects\Effects\Sunshafts\Editor\SunshaftsEditor.cs" />
      <Compile Include="Assets\SC Post Effects\Effects\TiltShift\Editor\TiltShiftEditor.cs" />
      <Compile Include="Assets\SC Post Effects\Effects\TubeDistortion\Editor\TubeDistortionEditor.cs" />
+     <Compile Include="Assets\Voxeland\Editor\ChunkEditor.cs" />
+     <Compile Include="Assets\Voxeland\Editor\GrassMaterialInspector.cs" />
+     <Compile Include="Assets\Voxeland\Editor\LandMaterialInspector.cs" />
+     <Compile Include="Assets\Voxeland\Editor\VoxelandEditor.cs" />
+     <Compile Include="Assets\Voxeland\TextureArrayInspector\Editor\TextureArrayInspector.cs" />
+     <Compile Include="Assets\Voxeland\TextureArrayInspector\Editor\TextureImporter.cs" />
+     <Compile Include="Assets\Voxeland\Tools\Editor\PopupMenu.cs" />
+     <Compile Include="Assets\Voxeland\Tools\Plugins\Editor\CompatibilityManager.cs" />
      <None Include="Assets\Editor\x64\Bakery\shaderSrc\ftrace.cginc" />
      <None Include="Assets\Editor\x64\Bakery\ftChecker.shader" />
  <Reference Include="UnityEditor.TestRunner">

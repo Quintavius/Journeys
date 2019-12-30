@@ -400,7 +400,33 @@ MonoBehaviour:
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
-  uvOverlapAssetList: 00000000ffffffff
+  - Assets/AmplifyShaderEditor/Examples/Community/EnvironmentGradient/TerrainExample.fbx
+  - Assets/AmplifyShaderEditor/Examples/Community/Skybox Cubemap Extended/Meshes/LowPoly
+    - Rock A.FBX
+  - Assets/AmplifyShaderEditor/Examples/Community/Skybox Cubemap Extended/Meshes/LowPoly
+    - Grass A.FBX
+  - Assets/AmplifyShaderEditor/Examples/Community/SingleChannelMasking/Masked.fbx
+  - Assets/AmplifyShaderEditor/Examples/Community/Skybox Cubemap Extended/Meshes/LowPoly
+    - Grass B.FBX
+  - Assets/AmplifyShaderEditor/Examples/Assets/Models/CalibrationScaleRGB.fbx
+  - Assets/AmplifyShaderEditor/Examples/Assets/Models/smallwater.fbx
+  - Assets/AmplifyShaderEditor/Examples/Community/Skybox Cubemap Extended/Meshes/LowPoly
+    - Rock B.FBX
+  - Assets/AmplifyShaderEditor/Examples/Community/Skybox Cubemap Extended/Meshes/LowPoly
+    - FirTree A.FBX
+  - Assets/AmplifyShaderEditor/Examples/Community/Skybox Cubemap Extended/Meshes/LowPoly
+    - Terrain.FBX
+  - Assets/AmplifyShaderEditor/Examples/Community/Skybox Cubemap Extended/Meshes/LowPoly
+    - Fence B.FBX
+  - Assets/AmplifyShaderEditor/Examples/Assets/Models/smallmountain.fbx
+  - Assets/AmplifyShaderEditor/Examples/Community/Skybox Cubemap Extended/Meshes/LowPoly
+    - Fence A.FBX
+  - Assets/AmplifyShaderEditor/Examples/Assets/Models/Shaderball2.FBX
+  - Assets/AmplifyShaderEditor/Examples/Community/Skybox Cubemap Extended/Meshes/LowPoly
+    - FirTree B.FBX
+  - Assets/AmplifyShaderEditor/Examples/Assets/Models/RoundedCube.fbx
+  - Assets/AmplifyShaderEditor/Examples/Assets/Models/headlow.fbx
+  uvOverlapAssetList: 00000000ffffffff0000000000000000000000000000000000000000000000000101000000000000000000000000000000000000010100000000000001010000000000000101000001010000
   xatlasWarningShown: 0
   checkerPreviewOn: 0
   renderSettingsBounces: 5
