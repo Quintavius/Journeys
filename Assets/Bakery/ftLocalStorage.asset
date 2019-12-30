@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ca84e725c7c764aa5ed097918d14b7, type: 3}
   m_Name: ftLocalStorage
   m_EditorClassIdentifier: 
-  modifiedAssetPathList: []
-  modifiedAssetPaddingHash: 
+  modifiedAssetPathList:
+  - Assets/Bakery/examples/content/sponza/sponza.FBX
+  modifiedAssetPaddingHash: d6a958ff
